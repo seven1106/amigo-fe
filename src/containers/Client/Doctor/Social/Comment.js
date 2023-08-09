@@ -48,8 +48,8 @@ class Comment extends Component {
       <>
         <div
           class="fb-comments"
-          data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
-          // data-href="window.location.origin + window.location.pathname"
+          // data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+          data-href="window.location.origin + window.location.pathname"
           data-width={width ? width : "100%"}
           data-numposts={dataNumposts ? dataNumposts : 5}
         ></div>
