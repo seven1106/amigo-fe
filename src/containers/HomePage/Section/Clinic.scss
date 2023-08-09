@@ -1,0 +1,30 @@
+.clinic {
+  .section-item {
+    padding: 5px;
+
+    .clinic-border {
+      .clinic-img {
+        display: flex;
+      }
+
+      &:hover {
+        cursor: pointer;
+        .clinic-title {
+          color: #f7d800;
+        }
+      }
+      .clinic-title {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 7px;
+
+        color: #111;
+      }
+      .spec-title {
+        font-size: 14px;
+        color: #111;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

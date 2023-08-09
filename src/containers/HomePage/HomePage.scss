@@ -1,0 +1,179 @@
+.slick-slider {
+  .slick-prev {
+    left: 0;
+    z-index: 1;
+    width: 25px !important;
+    height: 40px !important;
+    background: #c3d3d8 !important;
+    border: 2px solid #c3d3d8 !important;
+  }
+  .slick-next {
+    right: 0;
+    z-index: 1;
+    width: 25px !important;
+    height: 40px !important;
+    background: #c3d3d8 !important;
+    border: 2px solid #c3d3d8 !important;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #000 !important;
+  }
+}
+.section-share {
+  &.clinic {
+    background: #f5f5f5;
+  }
+  &.handBook {
+    background: #f5f5f5;
+  }
+
+  &.about {
+    height: 450px;
+    .section-body {
+      display: flex;
+      .about-left {
+        width: 50%;
+        height: 100%;
+        padding: 10px 15px;
+      }
+      .about-right {
+        width: 50%;
+        height: 100%;
+        padding: 10px 15px;
+        img {
+          width: 100%;
+          height: 100%;
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: scale(0.9);
+          }
+        }
+      }
+    }
+  }
+  .section-container {
+    height: 400px;
+    width: 100%;
+    padding: 0 100px;
+
+    .section-header {
+      height: 60px;
+      margin-bottom: 30px;
+      padding-top: 30px;
+      .section-title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .section-button {
+        float: right;
+        padding: 10px 20px;
+        font-size: 11px;
+        border: none;
+        outline: none;
+        background-color: #ebebeb;
+        color: #0b0b0b;
+        display: block;
+        &:hover {
+          cursor: pointer;
+          color: #fff;
+          background: #f7d800;
+        }
+      }
+    }
+    .section-body {
+      .section-item {
+        &:hover {
+          cursor: pointer;
+          .item-title {
+            color: #f7d800;
+          }
+        }
+        .bg-image {
+          height: 150px;
+          width: 320px;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          &.specialty {
+            // background-image: url("../../assets/slick-img/coxuongkhop-spec.jpg");
+          }
+          &.clinic {
+            background-image: url("../../assets/slick-img/vietduc-faci.jpg");
+          }
+          &.outstandDoctor {
+            // background-image: url("../../assets/slick-img/bsckii-tran-minh-khuyen-doctor.jpg");
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+          }
+          &.handBook {
+            background-image: url("../../assets/slick-img/tuvanphauthuat-hbook.jpg");
+          }
+        }
+        .item-title {
+          color: #111;
+          padding: 5px 0;
+          font-size: 14px;
+          font-family: 14px/1.5 "Montserrat", sans-serif;
+          outline: none;
+        }
+      }
+    }
+  }
+}
+.outstandDoctor {
+  .section-item {
+    padding: 0px 5px;
+    .outstandDoctor-border {
+      border: 1px solid #eee;
+      text-align: center;
+      height: 225px;
+
+      .outstandDoctor-img {
+        display: flex;
+        justify-content: center;
+        margin: 10px 20px;
+        padding: 10px;
+      }
+      &:hover {
+        cursor: pointer;
+        .doctor-title {
+          color: #f7d800;
+        }
+      }
+      .doctor-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #111;
+      }
+      .spec-title {
+        font-size: 14px;
+        color: #111;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.homeFooter {
+  background: #f5f5f5;
+  padding: 0 100px;
+  font-size: "inherit";
+  font-family: "Montserrat", sans-serif;
+  float: left;
+  width: 100%;
+  .footer {
+    padding: 40px 0px;
+    img {
+      float: right;
+      transition: transform 0.3s ease;
+      width: 32px;
+      height: 32px;
+      &:hover {
+        transform: scale(0.9);
+      }
+    }
+  }
+}

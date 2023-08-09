@@ -1,0 +1,29 @@
+.specialty {
+  .section-item {
+    padding: 5px;
+
+    .specialty-border {
+      .specialty-img {
+        display: flex;
+      }
+
+      &:hover {
+        cursor: pointer;
+        .specialty-title {
+          color: #f7d800;
+        }
+      }
+      .specialty-title {
+        font-size: 16px;
+        margin-top: 7px;
+        font-weight: 400;
+        color: #111;
+      }
+      .spec-title {
+        font-size: 14px;
+        color: #111;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

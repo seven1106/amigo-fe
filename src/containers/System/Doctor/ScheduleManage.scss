@@ -1,0 +1,25 @@
+.schedule-container {
+  padding: 10px;
+  .schedule-body {
+    padding: 20px;
+    .container {
+      .pick-hour-container {
+        padding: 20px 20px;
+        gap: 20px;
+        flex-wrap: wrap;
+        .button {
+          padding: 5px 10px;
+          margin: 5px;
+          border: 1px solid #ccc;
+          &active {
+            background-color: #1c63aa;
+            color: #fff;
+          }
+        }
+      }
+      .btn {
+        margin: 0px 10px;
+      }
+    }
+  }
+}

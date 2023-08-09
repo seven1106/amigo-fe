@@ -1,0 +1,57 @@
+.intro-dr {
+  display: flex;
+  padding: 10px 5px;
+  height: 130px;
+  .content-left-dr {
+    background: center center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 15%;
+  }
+  .content-right-dr {
+    width: 75%;
+    .name-dr {
+      &:hover {
+        cursor: pointer;
+
+        color: #f7d800;
+      }
+      font-size: 20px;
+      margin-bottom: 7px;
+      line-height: 32px;
+      font-weight: bold;
+      color: #000000;
+      font-family: 14px/1.5 "Montserrat", sans-serif;
+    }
+    .specialty-dr {
+      color: #555;
+      font-size: 12px;
+      font-weight: 400;
+      color: #000000;
+      font-family: 14px/1.5 "Montserrat", sans-serif;
+    }
+  }
+}
+.detail-info {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8;
+  .price {
+    padding-bottom: 5px;
+    .right {
+      float: right;
+    }
+  }
+  .payment {
+    padding-bottom: 5px;
+    .right {
+      float: right;
+    }
+  }
+}
+.payment {
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #f8f8f8;
+}

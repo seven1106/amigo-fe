@@ -1,0 +1,19 @@
+.selectDoctor {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 15px;
+  .selectDoctor-left {
+    width: 30%;
+  }
+  .selectDoctor-right {
+    width: 70%;
+  }
+}
+.save-change {
+  justify-content: flex-end;
+  padding: 15px;
+  float: right;
+  button {
+    margin-left: 10px;
+  }
+}
