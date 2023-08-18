@@ -27,7 +27,7 @@ class AppointmentManage extends Component {
   getAppointmentByDate = async () => {
     let user = this.props.user.id;
     let currentDate = this.state.currentDate;
-    let res = await getAppointmentByDateApi(user, currentDate);
+    let res = await getAppointmentByDateApi("ALL", currentDate);
     if (res && res.errCode === 0) {
       this.setState({
         dataAppoint: res.data,
