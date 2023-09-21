@@ -151,9 +151,7 @@ class ScheduleManage extends Component {
                           return (
                             <button
                               className={
-                                item.isSelected === true
-                                  ? "button active btn-outline-primary"
-                                  : "button btn-outline-primary "
+                                item.isSelected === true ? "buttonac" : "button"
                               }
                               key={index}
                               onClick={() => this.handleClickBtnTime(item)}
